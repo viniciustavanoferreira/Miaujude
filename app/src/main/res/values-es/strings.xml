@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Adopta un gatito</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_sign_in">Ingresa o Registro</string>
+    <string name="action_sign_in_short">Registrarse</string>
+    <string name="error_email_already_used">Este correo electrónico ya está en uso</string>
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="error_incorrect_password">Esta contraseña es incorrecta</string>
+    <string name="error_invalid_email">Esta dirección de correo electrónico no es válida.</string>
+    <string name="error_invalid_password">Esta contraseña no es válida.</string>
+    <string name="error_password_weak">Escriba una contraseña con al menos 8 caracteres alfanuméricos.</string>
+    <string name="error_unknown">Hay un error desconocido.</string>
+    <string name="login_register">No estas registrado? ¡Haga clic aquí!</string>
+    <string name="message_camera_failed">La cámara no ha tomado la fotografía.</string>
+    <string name="message_camera_needed">Es necesario permitir la cámara para tomar fotos.</string>
+    <string name="message_gps_needed">Es necesario permitir el GPS para poder usar esta aplicación.</string>
+    <string name="message_gps_no_signal">Sin señal de GPS.</string>
+    <string name="message_map_not_ready">Google Maps no está listo ahora mismo.</string>
+    <string name="message_passwords_not_equal">Las contraseñas que ha escrito no coinciden, intente nuevamente.</string>
+    <string name="message_user_authenticated_fail">Desajuste de usuario o contraseña. Inténtalo de nuevo.</string>
+    <string name="message_user_authenticated_success">Usuario autenticado con éxito!</string>
+    <string name="message_user_created_success">Tu usuario fue creado con éxito.</string>
+    <string name="navigation_drawer_close">Cerrar el cajón de navegación</string>
+    <string name="navigation_drawer_open">Abra el cajón de navegación</string>
+    <string name="prompt_email">Correo electrónico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="tip_map_marker">¡Estoy aquí!</string>
+    <string name="title_activity_inicializacao">Iniciado</string>
+    <string name="title_activity_login">Registrarse</string>
+    <string name="title_activity_maps">Mapa</string>
+</resources>

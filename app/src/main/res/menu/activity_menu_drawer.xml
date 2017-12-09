@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--ITENS DO MENU -->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_adopt_cat"
+            android:icon="@drawable/places_ic_search"
+            android:title="@string/label_nav_adopt_cat" />
+        <item
+            android:id="@+id/nav_register_cat"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/label_nav_register_cat" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/label_nav_profile" />
+        <item
+            android:id="@+id/nav_appExit"
+            android:icon="@drawable/app_exit"
+            android:title="Sair do aplicativo" />
+
+    </group>
+
+    <!-- OUTTRAS OPÇÕES -->
+    <!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>

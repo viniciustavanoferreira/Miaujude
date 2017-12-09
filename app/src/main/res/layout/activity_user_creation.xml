@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    tools:context="com.fatec.labs.fatec_firebase.Activity.UserCreationActivity"
+    android:weightSum="1">
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvwUserCamera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/label_user_camera"
+            android:textSize="15sp"/>
+
+         <ImageView
+             android:id="@+id/imgCadUsuario"
+             android:layout_width="100dp"
+             android:layout_height="100dp"
+             android:onClick="tirarFoto"
+             app:srcCompat="@android:drawable/ic_menu_camera"
+             android:layout_weight="0.01" />
+
+
+        <TextView
+            android:id="@+id/tvwUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_user_name" />
+
+        <EditText
+            android:id="@+id/nomeCadlUsuario"
+            android:hint=""
+            android:inputType="textCapCharacters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvwUserCelular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_user_phone" />
+
+        <EditText
+             android:id="@+id/phoneCadlUsuario"
+             android:inputType="phone"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvwUserPerfEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_user_email" />
+
+        <EditText
+             android:id="@+id/emaiCadlUsuario"
+             android:inputType="textEmailAddress"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvwUserPassw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_user_password" />
+
+         <EditText
+             android:id="@+id/senhaCadlUsuario"
+             android:inputType="textPassword"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvwUserPassw2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_user_password2" />
+
+        <EditText
+             android:id="@+id/confirmaSenhaCadlUsuario"
+             android:inputType="textPassword"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnCadSalvarUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/textbuton_user_register"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

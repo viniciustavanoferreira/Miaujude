@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "331094981734",
+    "firebase_url": "https://fatec-miaujude.firebaseio.com",
+    "project_id": "fatec-miaujude",
+    "storage_bucket": "fatec-miaujude.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331094981734:android:5d6755bd5f73ff9e",
+        "android_client_info": {
+          "package_name": "com.fatec.labs.fatec_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331094981734-7f4cn22pqvbjaco1rc5d2ivfiugislid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fatec.labs.fatec_firebase",
+            "certificate_hash": "5806437a3d60e86dcdd43b1c91ca288800c51472"
+          }
+        },
+        {
+          "client_id": "331094981734-uqpaj1mbi0rfv485bur1o9e0mjk6505f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fatec.labs.fatec_firebase",
+            "certificate_hash": "b13a6d923109fd109928324603ed1132f4285556"
+          }
+        },
+        {
+          "client_id": "331094981734-16kqh5joagn7ddp65vn5i35ml83ggob6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1PbMQRpA1p4S-QK8LCH2uIl0fDuco81A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331094981734-16kqh5joagn7ddp65vn5i35ml83ggob6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

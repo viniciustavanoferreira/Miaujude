@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgCat"
+        android:layout_width="@dimen/cast_intro_overlay_button_margin_bottom"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:contentDescription="@string/title_activity_cat_info"
+        android:scaleType="fitCenter"
+        app:srcCompat="@mipmap/gato_inicializacao" />
+
+    <GridLayout
+        android:layout_width="@dimen/widthLayout"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:columnCount="3"
+        android:rowCount="2"
+        android:useDefaultMargins="true">
+
+        <TextView
+            android:id="@+id/tvwCatName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:text="TextView"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/tvwCatRace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_row="1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tvwCatDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_row="1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tvwCatId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_row="1"
+            android:text="TextView" />
+
+    </GridLayout>
+</android.support.v7.widget.LinearLayoutCompat>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">子猫を採用する</string>
+    <string name="action_settings">設定</string>
+    <string name="action_sign_in">ログインまたは登録</string>
+    <string name="action_sign_in_short">サインイン</string>
+    <string name="error_email_already_used">この電子メールはすでに取得済みです</string>
+    <string name="error_field_required">この項目は必須です</string>
+    <string name="error_incorrect_password">このパスワードは間違っています</string>
+    <string name="error_invalid_email">このメールアドレスは無効です</string>
+    <string name="error_invalid_password">このパスワードは無効です</string>
+    <string name="error_password_weak">少なくとも8文字の英数字を使用してパスワードを入力してください</string>
+    <string name="error_unknown">不明なエラーがあります</string>
+    <string name="login_register">まだ登録されていませんか？ここをクリック！</string>
+    <string name="message_camera_failed">カメラが撮影に失敗しました</string>
+    <string name="message_camera_needed">写真を撮るためにカメラを許可する必要があります。</string>
+    <string name="message_gps_needed">このアプリを使用するにはGPSを許可する必要があります。</string>
+    <string name="message_gps_no_signal">GPS信号はありません。</string>
+    <string name="message_map_not_ready">Googleマップは現在準備ができていません。</string>
+    <string name="message_passwords_not_equal">入力したパスワードが一致していません。もう一度お試しください。</string>
+    <string name="message_user_authenticated_fail">ユーザーまたはパスワードが一致しません。もう一度お試しください。</string>
+    <string name="message_user_authenticated_success">ユーザーは正常に認証されました！</string>
+    <string name="message_user_created_success">ユーザーが正常に作成されました。</string>
+    <string name="navigation_drawer_close">ナビゲーション・ドロワーを閉じる</string>
+    <string name="navigation_drawer_open">ナビゲーション・ドロワーを開く</string>
+    <string name="prompt_email">Eメール</string>
+    <string name="prompt_password">パスワード</string>
+    <string name="tip_map_marker">私はここにいます！</string>
+    <string name="title_activity_inicializacao">開始する</string>
+    <string name="title_activity_login">サインイン</string>
+    <string name="title_activity_maps">地図</string>
+</resources>

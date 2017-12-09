@@ -1,0 +1,94 @@
+<resources>
+    <!--Informações gerais do app-->
+    <string name="app_name">Adopt a cat</string>
+
+    <!--Activity Start-->
+    <string name="title_activity_start">Start</string>
+    <string name="action_login">Sign In</string>
+    <string name="action_register">Not registered yet? Click here!</string>
+
+    <!--Activity Login-->
+    <string name="title_activity_login">Sign in</string>
+    <string name="text_email">e-Mail</string>
+    <string name="text_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <!--Activity Menu-->
+    <string name="title_activity_menu">Miaujude</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="label_nav_adopt_cat">Adopt a cat</string>
+    <string name="label_nav_register_cat">register a cat</string>
+    <string name="label_nav_profile">My profile</string>
+    <string name="action_settings">Settings</string>
+    <string name="adopted_cats">%s adopted cats</string>
+    <string name="cats_for_adoption">%s cats for adoption</string>
+
+    <!--Activity Maps-->
+    <string name="title_activity_maps">Maps</string>
+    <string name="map_default_info_window">Default info window</string>
+    <string name="map_custom_info_contents">Custom info contents</string>
+    <string name="map_custom_info_window">Custom info window</string>
+
+    <!--Activity Cat Include -->
+    <string name="title_activity_cat_include">Put the kitty to adoption</string>
+    <string name="info_take_cat_picture">Take a picture of your kitty</string>
+    <string name="label_cat_name">Your kitty\'s name</string>
+    <string name="label_cat_race">Your kitty\'s race</string>
+    <string name="label_cat_description">Give some info (treats, likes, diseases, etc)</string>
+    <string name="action_confirm_include">Confirm</string>
+    <string name="action_back">Cancel</string>
+    <string name="textButon_cat_register">register cat</string>
+
+    <!--Activity Cat Info -->
+    <string name="title_activity_cat_info">Cat info</string>
+    <string name="info_cat_profile">Cat profile</string>
+    <string name="label_cat_owner_name">Felix</string>
+
+    <!--Activity Cat Profile -->
+    <string name="title_activity_cat_profile">Cat profile</string>
+
+    <!--Activity User Creation-->
+    <string name="title_activity_user_creation">Sign up</string>
+    <string name="label_user_name">Full name</string>
+    <string name="label_user_phone">Phone</string>
+    <string name="label_user_email">E-mail</string>
+    <string name="label_user_password">Password</string>
+    <string name="label_user_password2">confirm password</string>
+    <string name="label_user_camera">Click the camera</string>
+    <string name="textbuton_user_register">register user</string>
+
+
+    <!--Activity User Profile -->
+    <string name="title_activity_user_profile">My profile</string>
+
+
+    <!--Mensagens-->
+    <string name="message_user_updated_success">User successfully updated.</string>
+    <string name="message_gps_needed">Its necessary to allow GPS in order to use this app.</string>
+    <string name="message_gps_no_signal">No GPS signal.</string>
+    <string name="message_camera_needed">Its necessary to allow camera in order to take pictures.</string>
+    <string name="message_camera_failed">Camera has failed in taking picture.</string>
+    <string name="message_map_not_ready">Google Maps is not ready right now.</string>
+    <string name="message_login_successful">Successfully authenticated.</string>
+    <string name="message_cat_not_found">The selected Cat was not found.</string>
+    <string name="message_phone_needed">Its necessary to allow phone to use call feature.</string>
+    <string name="message_cat_included_success">Cat was successfully included.</string>
+    <string name="message_cat_included_failure">There was a failure during cat inclusion.</string>
+
+    <!--Erros-->
+    <string name="error_password_not_equal">Password mismatch. Please review.</string>
+    <string name="error_invalid_cat">Invalid cat name or race</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_login_failed">Failed to login</string>
+    <string name="error_not_connected">There is no connection to internet.</string>
+    <string name="error_user_not_found">User not found.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

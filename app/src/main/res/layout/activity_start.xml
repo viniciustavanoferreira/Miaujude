@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:padding="16dp"
+    android:background="@color/colorWhite"
+    tools:context="com.fatec.labs.fatec_firebase.Activity.StartActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTitulo"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textSize="25sp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/imgato"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/BtnFazerLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_login"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txtViewAbreCadastroUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_register"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

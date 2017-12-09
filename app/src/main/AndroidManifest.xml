@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fatec.labs.fatec_firebase">
+
+    <!-- RECURSOS DO APP -->
+    <uses-feature
+        android:name="android.hardware"
+        android:required="true" />
+    <!-- PERMISSÕES DO APP -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Activity.MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.StartActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Activity.UserCreationActivity"
+            android:label="@string/title_activity_user_creation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.Splash2"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Activity.CatIncludeActivity"
+            android:label="@string/title_activity_cat_include"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.UserProfileActivity"
+            android:label="@string/title_activity_user_profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.CatProfileActivity"
+            android:label="@string/title_activity_cat_profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.CatInfoActivity"
+            android:label="@string/title_activity_cat_info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.MyCatInfoActivity"
+            android:label="@string/title_activity_cat_info"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Common.SplashActivity"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SplashLoginActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:drawable="@drawable/gifgato010" android:duration="200"/>
+
+    <item android:drawable="@drawable/gifgato020" android:duration="200"/>
+
+    <item android:drawable="@drawable/gifgato030" android:duration="200"/>
+
+    <item android:drawable="@drawable/gifgato040" android:duration="200"/>
+
+    <item android:drawable="@drawable/gifgato050" android:duration="200"/>
+
+    <item android:drawable="@drawable/gifgato060" android:duration="200"/>
+
+    <item android:drawable="@drawable/gifgato070" android:duration="200"/>
+
+    <item android:drawable="@drawable/gifgato080" android:duration="200"/>
+
+    <item android:drawable="@drawable/gifgato090" android:duration="200"/>
+
+    <item android:drawable="@drawable/gifgato100" android:duration="200"/>
+
+
+</animation-list>
