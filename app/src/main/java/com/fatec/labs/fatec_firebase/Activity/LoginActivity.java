@@ -103,7 +103,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         FirebaseUser currentUser = mAuth.getCurrentUser();
 
         //debug
-        mEmailView.setText("vtf.fatec@hotmail.com");
+        mEmailView.setText("vtff.fatec@hotmail.com");
         mPasswordView.setText("sap123");
     }
 
